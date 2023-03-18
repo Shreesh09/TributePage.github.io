@@ -1,0 +1,131 @@
+body{
+    font-family: Helvetica;
+    margin: 0;
+    background-color: #e5e5e5;
+    color: white;
+  }
+  
+  header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    flex-wrap: no-wrap;
+  }
+  
+  main{
+    background-color: black;
+  }
+  
+  header > h1, header > p{
+    text-align: center;
+    color: black;
+  }
+  
+  header > h1{
+    margin: 0;
+    padding: 0;
+  }
+  
+  header > p{
+    font-size: 26px;
+    padding: 0;
+  }
+  
+  #img-div{
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    height: 1200px;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #image{
+    width: 1700;
+    height: 800;
+  }
+  
+  .caption{
+    color: white;
+    font-size: 24px;
+  }
+  
+  .large{
+    font-size: 60px;
+  }
+  
+  .medium{
+    font-size: 40px;
+  }
+  
+  .info
+  {
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 10px;
+  }
+  
+  .info-text{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  
+  .Filmography{
+    margin-top: 200px;
+  }
+  
+  .Filmography h2{
+    margin-left: 50px;
+  }
+  
+  .gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 100px;
+  }
+  
+  .Film{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  
+  .Film img{
+    max-width: 500px;
+    object-fit: cover;
+  }
+  
+  .Film img:hover{
+    max-width: 550px;
+  }
+  
+  .Film-image{
+    margin:0;
+    padding:0;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  footer{
+    text-align: center;
+    color: black;
+  }
+  
+  #image{
+    max-width: 100%;
+    height: auto;
+  }
